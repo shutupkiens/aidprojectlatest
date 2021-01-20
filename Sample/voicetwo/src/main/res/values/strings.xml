@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">AID DEPRESSION TEST</string>
+    <string name="app_label">A.I.D.</string>
+    <string name="app_fullname">Am I Depressed?</string>
+    <string name="app_startvoice">Voice Detection</string>
+    <string name="app_startface">Face Detection</string>
+    <string name="voiceEmotion">Voice Emotion Detection</string>
+    <string name="start_ques">Start Questionnaire</string>
+    <string name="start_voice">Start Voice</string>
+    <string name="start_rec">Voice Activity</string>
+    <string name="textNeutral">neutrality</string>
+    <string name="textHappy">happiness</string>
+    <string name="textSad">sadness</string>
+    <string name="textAnger">anger</string>
+    <string name="textFear">fear</string>
+
+    <string name="app_detail">AM I DEPRESSED?</string>
+    <string name="voicedetection">Voice Emotion Recognition</string>
+    <string name="question">AID Questionnaire</string>
+    <string name="result_test">Result</string>
+    <string name="recommend">Recommendations</string>
+
+    <string name="_10_food_to_fight_depression">10 FOOD TO FIGHT DEPRESSION</string>
+    <string name="green_tea">Green Tea</string>
+    <string name="almond">Almond</string>
+    <string name="salmon">Salmon</string>
+    <string name="dark_chocolate">Dark Chocolate</string>
+    <string name="eggs">Eggs</string>
+    <string name="banana">Banana</string>
+    <string name="avocado">Avocado</string>
+    <string name="blueberry">Blueberry</string>
+    <string name="spinach">Spinach</string>
+    <string name="asparagus">Asparagus</string>
+
+    <string name="exercise">Exercise</string>
+    <string name="exerciseInfo">Treating Depression</string>
+    <string name="yoga">Treating Depression</string>
+    <string name="breathing">Treating Depression</string>
+    <string name="workout">Treating Depression</string>
+    <string name="diet">Diet</string>
+    <string name="treatment">Treatments</string>
+    <string name="voiceemotion">voicemotion</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="voiceactivity">Voice Activity</string>
+
+    <string name="mmha_org_my"><u>mmha.org.my</u></string>
+    <string name="miasa_org_my"><u>miasa.org.my</u></string>
+    <string name="befrienders_org_my"><u>befrienders.org.my</u></string>
+    <string name="sols247_org"><u>sols247.org</u></string>
+    <string name="emailbefrienders"><a href="sam@befrienders.org.my">sam@befrienders.org.my</a></string>
+    <string name="wao_my"><u>wao.org.my</u></string>
+    <string name="food">Food for Depression</string>
+    <string name="mildactivities">Mild Depression Exercises</string>
+    <string name="severeactivities">Severe Depression Exercises</string>
+    <string name="dashtext">1. Get your starch fix with whole grains and legumes. \n2. Fill up on plenty of fruits and veggies. \n3. Focus on eating fatty fish, like salmon or albacore tuna, in place of red meat. \n4. Add in healthy fats, like raw nuts and olive oil. \n5. Enjoy sweets and wine in moderation.</string>
+    <string name="medtext">1. Embrace whole grains, vegetables, and fruit. \n2. Get protein from chicken, fish, and nuts. \n3. Switch to low-fat or nonfat dairy. \n4. Limit sweets, sugary drinks, saturated fats, and alcohol.</string>
+    <string name="viewdash">Dash Diet</string>
+    <string name="viewmed">Mediterranean Diet</string>
+
+    <string-array name="haachama_cooking">
+        <item>Tomatoes</item>
+        <item>Onions</item>
+        <item>Leafy Greens</item>
+        <item>Berries</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Mushroom</item>
+    </string-array>
+
+    <string-array name="price">
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+    </string-array>
+
+    <string-array name="description">
+        <item>High antioxidant content to protect cell against inflammation and boost mood.</item>
+        <item>Prevent cancer of the gut to benefit our mood.</item>
+        <item>Packed with depression fighters such as folic acid and alpha-lipoic acid.</item>
+        <item>Nutrient dense inflammation fighter such as vitamin A,C,E,K and phytochemicals.</item>
+        <item>Rich source of Omega-3 fats and important for brain health.</item>
+        <item>Full of cell-repairing antioxidants and vitamin C to provide anxiety relief.</item>
+        <item>Lower blood sugar level to even out our mood.</item>
+        <item>Contains healthy fat such as Oleic acid to give brain power.</item>
+    </string-array>
+
+</resources>

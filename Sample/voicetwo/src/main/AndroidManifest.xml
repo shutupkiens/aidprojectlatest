@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.depressiontest">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".VoiceActivity"
+            android:label="@string/voiceEmotion"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".StartVoice"
+            android:label="@string/voiceactivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".StartQuestionVoice"
+            android:label="@string/question"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".QuestionActivity"
+            android:label="@string/question"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ResultActivity"
+            android:label="@string/result_test"
+            android:screenOrientation="portrait" >
+
+        </activity>
+
+        <activity android:name=".ReccomendActivity"
+            android:label="@string/recommend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietActivity"
+            android:label="@string/diet"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ExerciseInfo"
+            android:label="@string/exerciseInfo"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".TreatmentActivity"
+            android:label="@string/treatment"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ViewDash"
+            android:label="@string/viewdash"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ViewMed"
+            android:label="@string/viewmed"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".FoodInfo"
+            android:label="@string/food"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ExercisePageActivity"
+            android:label="@string/exercise"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".FoodPageActivity"
+            android:label="@string/diet"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MildVidActivity"
+            android:label="@string/mildactivities" />
+
+        <activity
+            android:name=".SevereVidActivity"
+            android:label="@string/severeactivities" />
+
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:label="@string/severeactivities" />
+
+        <activity
+            android:name=".AnimateActivity"
+            android:label="@string/food" />
+
+        <activity
+            android:name=".Activity1"
+            android:label="@string/food" />
+
+        <activity
+            android:name=".Activity2"
+            android:label="@string/food" />
+
+    </application>
+
+</manifest>

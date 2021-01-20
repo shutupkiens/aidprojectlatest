@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imagerun"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textTips4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="OVERVIEW"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textbenefit"
+            android:layout_width="313dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Regular exercise may increase the level of brain serotonin to help regulate mood, sleep, and appetite. Problems in the serotonin pathways of the brain have been linked to depression." />
+
+
+
+        <TextView android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="HOW TO GET STARTED"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/textTips3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text="\u2022 Start off with a few minutes of stretching and build from there."
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textTips1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:text="\u2022 Exercising with others can keep you on track and boost social connections."
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textTips"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:text="\u2022Don't wait until you feel like it. When you move first, the good feelings often follow."
+            android:textSize="15dp" />
+
+
+        <TextView android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="BENEFITS OF EXERCISE"
+            android:fontFamily="@font/poppins_medium"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imagesleep"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/day" />
+
+        <TextView
+            android:id="@+id/textbenefit3"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Improve sleep"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageenergy"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/energy" />
+
+        <TextView
+            android:id="@+id/textbenefit2"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:text="Increase energy levels"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageselflove"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/selfcare" />
+
+
+        <TextView
+            android:id="@+id/textbenefit1"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Boost self-esteem"
+            android:textSize="15dp"
+            android:layout_marginBottom="60dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+# ninja log v5
+0	11	0	clean	4a0ad9cce977d139
+0	11	0	clean	4a0ad9cce977d139
+1	199	632815372	CMakeFiles/vokaturi-lib.dir/src/main/cpp/Vokaturi9.c.o	2ff692207c62c149
+10	206	632815372	CMakeFiles/vokaturi-lib.dir/src/main/cpp/vokaturi-lib.cpp.o	ae27aef4ab1755e3
+206	328	632815372	../../../../build/intermediates/cmake/debug/obj/x86_64/libvokaturi-lib.so	d962600cfae1386

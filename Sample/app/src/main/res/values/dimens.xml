@@ -1,0 +1,18 @@
+<resources>
+<!-- Default screen margins, per the Android Design guidelines. -->
+<dimen name="activity_horizontal_margin">3dp</dimen>
+<dimen name="activity_vertical_margin">3dp</dimen>
+
+<dimen name="view_margin">60dp</dimen>
+<dimen name="view_marginLeft">-450dp</dimen>
+<dimen name="view_marginTop">250dp</dimen>
+    <dimen name="view_marginHomeTop">850dp</dimen>
+<dimen name="view_marginScroll">580dp</dimen>
+<dimen name="view_marginScrollKiri">-410dp</dimen>
+<dimen name="view_marginLeftScroll">-400dp</dimen>
+<dimen name="view_marginRight">15dp</dimen>
+<dimen name="view_marginAID">11dp</dimen>
+    <dimen name="view_marginBottom">4dp</dimen>
+    <dimen name="view_marginText">10dp</dimen>
+
+</resources>

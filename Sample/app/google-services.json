@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1095572749443",
+    "project_id": "aid-am-i-depressed",
+    "storage_bucket": "aid-am-i-depressed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095572749443:android:bcab00afd1389d0e00efb6",
+        "android_client_info": {
+          "package_name": "com.microsoft.projectoxford.face.samples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095572749443-gpm532qljodoghv2b34sk8kac7djv9pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.microsoft.projectoxford.face.samples",
+            "certificate_hash": "1431ecf55c7c7517542b67364ad53871b8668e9c"
+          }
+        },
+        {
+          "client_id": "1095572749443-sch1joeebkp952c86q46pfp6si3055us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuHJdKQxlOVHlJL4X887PK8EYbIicOzPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095572749443-sch1joeebkp952c86q46pfp6si3055us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
