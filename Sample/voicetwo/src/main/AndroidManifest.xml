@@ -94,6 +94,7 @@
 
         <activity
             android:name=".VideoPlayerActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenSize|screenLayout|uiMode"
             android:label="@string/severeactivities" />
 
         <activity
@@ -106,6 +107,14 @@
 
         <activity
             android:name=".Activity2"
+            android:label="@string/food" />
+
+        <activity
+            android:name=".Activity11"
+            android:label="@string/food" />
+
+        <activity
+            android:name=".Activity22"
             android:label="@string/food" />
 
     </application>

@@ -61,13 +61,15 @@
     <string name="viewmed">Mediterranean Diet</string>
 
     <string-array name="haachama_cooking">
-        <item>Tomatoes</item>
+        <item>Apples</item>
         <item>Onions</item>
+        <item>Tomatoes</item>
         <item>Leafy Greens</item>
+        <item>Salmon</item>
         <item>Berries</item>
-        <item>Avocado</item>
-        <item>Banana</item>
         <item>Mushroom</item>
+        <item>Avocado</item>
+
     </string-array>
 
     <string-array name="price">
@@ -78,6 +80,8 @@
         <item><u>click for more info</u></item>
         <item><u>click for more info</u></item>
         <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+
     </string-array>
 
     <string-array name="description">
@@ -88,7 +92,42 @@
         <item>Rich source of Omega-3 fats and important for brain health.</item>
         <item>Full of cell-repairing antioxidants and vitamin C to provide anxiety relief.</item>
         <item>Lower blood sugar level to even out our mood.</item>
-        <item>Contains healthy fat such as Oleic acid to give brain power.</item>
+        <item>Contains healthy fat such as Oleic Acid to give brain power.</item>
+    </string-array>
+
+    <string-array name="haechan_cooking">
+        <item>Green Tea</item>
+        <item>Dark Chocolate</item>
+        <item>Yogurt</item>
+        <item>Turmeric</item>
+        <item>Eggs</item>
+        <item>Chamomile</item>
+        <item>Pumpkin Seeds</item>
+        <item>Banana</item>
+
+    </string-array>
+
+    <string-array name="price1">
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+        <item><u>click for more info</u></item>
+
+    </string-array>
+
+    <string-array name="description1">
+        <item>Contains Theanine which has anti-anxiety and calming effects.</item>
+        <item>Good source of Magnesium to reduce symptoms of depression.</item>
+        <item>Probiotic food that helps to reduce social anxiety.</item>
+        <item>Contains Curcumin that helps lower anxiety by reducing inflammation.</item>
+        <item>Contains Serotonin to regulate mood, sleep, behaviour and memory.</item>
+        <item>Contains Flavonoids which has relaxant and anti-anxiety properties.</item>
+        <item>Rich in Potassium and Zinc which are essential for brain and nerve development.</item>
+        <item>Good source of amino acid tryptophan to promote relaxation and anxiety reliefs.</item>
     </string-array>
 
 </resources>

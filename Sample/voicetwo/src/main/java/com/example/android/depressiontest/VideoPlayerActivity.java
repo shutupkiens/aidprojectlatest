@@ -3,6 +3,7 @@ package com.example.android.depressiontest;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -18,6 +19,8 @@ public class VideoPlayerActivity extends YouTubeBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_videoplayer);
         Log.d(TAG,"onCreate:Starting");
         Bundle bundle = getIntent().getExtras();
@@ -43,5 +46,7 @@ public class VideoPlayerActivity extends YouTubeBaseActivity {
                 youTubePlayerView.initialize(youtubeconfig.getApiKey(),onInitializedListener);
             }
         });
+
+
     }
 }

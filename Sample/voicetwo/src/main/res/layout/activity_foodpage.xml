@@ -15,17 +15,26 @@
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:background="@drawable/foodpage"
+            android:background="@drawable/foodie"
             android:text="OVERVIEW" />
 
         <Button
-            android:id="@+id/btnFood"
+            android:id="@+id/btnFood1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/foodpage5"
+            android:text="MILD DEPRESSION" />
+
+        <Button
+            android:id="@+id/btnFood2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/foodpage4"
-            android:text="FOOD SUGGESTIONS" />
+            android:text="SEVERE DEPRESSION" />
 
         <Button
             android:id="@+id/BtnDiet"

@@ -13,7 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 public class FoodPageActivity extends AppCompatActivity {
     Button BtnInfo;
     Button BtnDiet;
-    Button BtnFood;
+    Button BtnMildFood;
+    Button BtnSevFood;
 
 
     @Override
@@ -23,7 +24,8 @@ public class FoodPageActivity extends AppCompatActivity {
 
         BtnInfo = findViewById(R.id.btnFoodInfo);
         BtnDiet = findViewById(R.id.BtnDiet);
-        BtnFood = findViewById(R.id.btnFood);
+        BtnMildFood = findViewById(R.id.btnFood1);
+        BtnSevFood = findViewById(R.id.btnFood2);
 
         BtnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,10 +44,18 @@ public class FoodPageActivity extends AppCompatActivity {
         });
 
 
-        BtnFood.setOnClickListener(new View.OnClickListener() {
+        BtnMildFood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent w = new Intent(getApplicationContext(), Activity1.class);
+                startActivity(w);
+            }
+        });
+
+        BtnSevFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent w = new Intent(getApplicationContext(), Activity11.class);
                 startActivity(w);
             }
         });

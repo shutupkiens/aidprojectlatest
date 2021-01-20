@@ -1,7 +1,6 @@
 package com.example.android.depressiontest;
 
 import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -10,7 +9,7 @@ public class Activity1 extends AppCompatActivity {
 
     RecyclerView r1;
     String s1[], s2[], s3[];
-    int imageResource[] = {R.drawable.animation_tomato, R.drawable.animation_onion, R.drawable.animation_leaf, R.drawable.animation_berry, R.drawable.animation_avo, R.drawable.animation_banana, R.drawable.animation_mushroom};
+    int imageResource[] = {R.drawable.animation_apple, R.drawable.animation_onion, R.drawable.animation_tomato, R.drawable.animation_leaf, R.drawable.animation_salmon, R.drawable.animation_berry, R.drawable.animation_mushroom, R.drawable.animation_avo};
     MenuAdapter adapter;
 
     @Override
